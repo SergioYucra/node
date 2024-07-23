@@ -11,7 +11,7 @@ app.set('port', config.app.port); //conectado al config.js app port
 
 
 //rutas
-app.use('/api/clientes',clientes)
+app.use('/api/clientes',clientes);
 
 
 module.exports = app;
